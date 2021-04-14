@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.main-container {
+    padding: 91px 250px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+    display: flex;
+}
+
+
+.sub-container-one {
+    background-color: hsl(31, 77%, 52%);
+    width: 33.3%;
+    padding: 80px 10px 70px 22px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.sub-container-two {
+    background-color: hsl(184, 100%, 22%);
+    padding: 80px 10px 70px 22px;
+    width: 33.3%;
+}
+
+.sub-container-three {
+    background-color: hsl(179, 100%, 13%);
+    padding: 80px 10px 70px 22px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    width: 33.3%;
+}
+
+.sub-container-one a {
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    display: inline-block;
+    background-color: hsl(0, 0%, 95%);
+    padding: 11px 23px;
+    border-radius: 33px;
+}
+
+.sub-container-one a:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 10px 20px;
+}
+
+.sub-container-two a {
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    display: inline-block;
+    background-color: hsl(0, 0%, 95%);
+    padding: 11px 23px;
+    border-radius: 33px;
+}
+
+.sub-container-two a:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 10px 20px;
+}
+
+.sub-container-three a {
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    display: inline-block;
+    background-color: hsl(0, 0%, 95%);
+    padding: 11px 23px;
+    border-radius: 33px;
+}
+
+.sub-container-three a:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 10px 20px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    margin: 30px 0;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center;
+    position: relative;
+    top: 77px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
